@@ -1,0 +1,33 @@
+.alinhamento {
+    display: flex;
+    align-items: center;
+    padding: 24px 24px;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.topo {
+    gap: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px 0px 220px;
+}
+
+.topo h1 {
+    color: #353436;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.topo-midia {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

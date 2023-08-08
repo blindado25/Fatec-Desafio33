@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+.grid-descricao {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    max-width: 1920px;
+}
+
+.alinha-descricao {
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: #F3F4F6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.maior {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+    height: 538px;
+    background-color: #111827;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 160px 456px;
+}
+
+.maior h1 {
+    font-family: Mukta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.maior p {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.descri1 {
+    background-color: #353436;
+    padding: 0px 67px;
+}
+
+.descri2 {
+    background-color: #B91C1C;
+    padding: 0px 82px;
+}
+
+.descri3 {
+    background-color: #481A8F;
+    padding: 0px 73px;
+}
