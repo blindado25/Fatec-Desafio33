@@ -1,0 +1,51 @@
+.alinhamento-cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 107px 0px 50px;
+    color: #111827;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.grid-cursos {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 300px 300px;
+    gap: 38px;
+    width: 1260px;
+    justify-content: center;
+}
+
+.curso {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #F3F4F6;
+}
+
+.curso a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.curso p {
+    color: #111827;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
