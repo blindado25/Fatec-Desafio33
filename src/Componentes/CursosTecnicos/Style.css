@@ -2,15 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 107px 0px 50px;
+    padding: 107px 0px 100px;
     color: #111827;
-    text-align: center;
+    flex-direction: column;
+}
+
+.alinhamento-cursos h1 {
     font-family: Mukta;
     font-size: 40px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
-    flex-direction: column;
+    padding: 0px 0px 50px;
 }
 
 .grid-cursos {

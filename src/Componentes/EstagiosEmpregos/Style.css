@@ -1,0 +1,78 @@
+.alinha-estagios-empregos {
+    display: flex;
+    justify-content: center;
+}
+
+.comtem-estagios-empregos {
+    max-width: 1920px;
+    display: flex;
+    width: 100%;
+}
+
+.estagios-e-empregos {
+    background-color: #B91C1C;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.estagios-e-empregos h1 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.descricao-vagas {
+    height: 600px;
+    display: flex;
+    width: 100%;
+    background-color: #F3F4F6;
+    gap: 74px;
+    padding: 56px 0px 0px 56px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+
+.vaga h1 {
+    color: #111827;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0px 0px 16px;
+}
+
+.vaga p {
+    color: #353436;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 0px 16px;
+}
+
+.vaga a {
+    color: #B91C1C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 0px 0px 16px;
+}
