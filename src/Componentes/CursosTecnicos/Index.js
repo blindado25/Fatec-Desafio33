@@ -17,42 +17,42 @@ export function CursosTecnicos() {
             <h1>Cursos técnicos</h1>
 
             <div className='grid-cursos'>
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso1} alt="ENFERMAGEM" />
                     <p>ENFERMAGEM</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso2} alt="DESENVOLVIMENTO DE SISTEMAS" />
                     <p>DESENVOLVIMENTO DE SISTEMAS</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso3} alt="RESURSOS HUMANOS" />
                     <p>RESURSOS HUMANOS</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso4} alt="ADMINITRAÇÃO" />
                     <p>ADMINITRAÇÃO</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso5} alt="AÇÚCAR E ÁLCOOL" />
                     <p>AÇÚCAR E ÁLCOOL</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso6} alt="AGROPECUÁRIA" />
                     <p>AGROPECUÁRIA</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso7} alt="ZOOTECNIA" />
                     <p>ZOOTECNIA</p>
                 </a></div>
 
-                <div className='curso'><a href="/" >
+                <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso8} alt="AGRONEGÓCIO" />
                     <p>AGRONEGÓCIO</p>
                 </a></div>
