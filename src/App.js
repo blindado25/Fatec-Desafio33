@@ -3,6 +3,7 @@ import { Menu } from "./Componentes/Menu/Index.js";
 import { DescricaoCPS } from "./Componentes/DescricaoCPS/Index";
 import { CursosTecnicos } from "./Componentes/CursosTecnicos/Index";
 import { EstagiosEmpregos } from "./Componentes/EstagiosEmpregos/Index";
+import { Noticias } from "./Componentes/Noticias/Index";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <DescricaoCPS />
       <CursosTecnicos />
       <EstagiosEmpregos />
+      <Noticias />
+
     </div>
   );
 }
