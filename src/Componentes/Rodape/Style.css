@@ -1,0 +1,107 @@
+.rodape-alinhamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-contem {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #B91C1C;
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    color: #F3F4F6;
+    padding-top: 74px;
+}
+
+.rodape-logo-redondo img {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.rodape-contato-alinha {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.rodape-alinha {
+    display: flex;
+    align-items: center;
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 16px;
+}
+
+.rodape-contato p {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rodape-contato h3 {
+    font-family: Mukta;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rodape-contato h2 {
+    font-size: 18px;
+}
+
+.rodape-etec {
+    max-width: 312px;
+}
+
+.rodape-etec h1 {
+    font-family: Mukta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.rodape-etec p {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.rodape-rede-social {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0px 71px;
+}
+
+.rodape-direitos-reservados {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #AA1818;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+.rodape-direitos-reservados h1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -41,7 +41,7 @@ export function Noticias() {
                     </a>
                 </div>
             </div>
-            <div>
+            <div className='botao-alinhamento'>
                 <a href="/" target='_blank'>
                     <div class="botao-noticia">
                         <h1>Ver mais notícias</h1>
