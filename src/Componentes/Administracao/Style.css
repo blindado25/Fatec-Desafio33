@@ -1,0 +1,118 @@
+.alinha-curso-enfermage {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo-curso-enfermagem {
+    max-width: 1920px;
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--red, #B91C1C);
+    margin-top: 100px;
+}
+
+.topo-curso-enfermagem h1 {
+    color: var(--white, #FFF);
+    font-family: Mukta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.alinha-dados-curso-enfermagem {
+    padding: 100px 0px;
+    display: flex;
+    gap: 54px;
+    align-items: center;
+}
+
+.foto-curso-Enfermagem img {
+    border-radius: 4px;
+    width: 488px;
+    height: 488px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.dados-curso-enfermagem {
+    max-width: 669px;
+    max-height: 455px;
+    width: 100%;
+}
+
+.dados-curso-enfermagem p {
+    color: var(--dark-200, #353436);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.sobre-curso {
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+}
+
+.curso-dados h4 {
+    color: var(--red, #B91C1C);
+    font-family: Mukta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.curso-dados h3 {
+    color: var(--dark-200, #353436);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.enfermagem-objetivos {
+    max-width: 1216px;
+}
+
+.enfermagem-objetivos h1 {
+    font-family: Mukta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.enfermagem-objetivos p {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.enfermagem-objetivos-fundo {
+    background: var(--white-200, #F3F4F6);
+    max-width: 1920px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+.enfermagem-objetivos-espaco {
+    padding: 80px 0px;
+}

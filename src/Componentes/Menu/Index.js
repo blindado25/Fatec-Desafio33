@@ -14,7 +14,7 @@ export function Menu() {
                 <img src={Logo} />
             </a>
             <div className="topo">
-                <h1> <a href="/" target='_blank'> Inicio</a></h1>
+                <h1> <a href="/" > Inicio</a></h1>
                 <h1> <a href="/" target='_blank'>Curso</a></h1>
                 <h1> <a href="/" target='_blank'>Vagas</a></h1>
                 <h1> <a href="/" target='_blank'>Noticias</a></h1>

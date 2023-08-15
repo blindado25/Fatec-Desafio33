@@ -23,40 +23,40 @@ export function CursosTecnicos() {
                     <p>ENFERMAGEM</p>
                 </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/desenvolvimentodesistema" >
                     <img src={Curso2} alt="DESENVOLVIMENTO DE SISTEMAS" />
                     <p>DESENVOLVIMENTO DE SISTEMAS</p>
-                </a></div>
+                </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/rescursoshumanos" >
                     <img src={Curso3} alt="RESURSOS HUMANOS" />
                     <p>RESURSOS HUMANOS</p>
-                </a></div>
+                </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/administracao" >
                     <img src={Curso4} alt="ADMINITRAÇÃO" />
                     <p>ADMINITRAÇÃO</p>
-                </a></div>
+                </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/acucarealcool" >
                     <img src={Curso5} alt="AÇÚCAR E ÁLCOOL" />
                     <p>AÇÚCAR E ÁLCOOL</p>
-                </a></div>
+                </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/agropecuaria" >
                     <img src={Curso6} alt="AGROPECUÁRIA" />
                     <p>AGROPECUÁRIA</p>
-                </a></div>
+                </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/zootecnia" >
                     <img src={Curso7} alt="ZOOTECNIA" />
                     <p>ZOOTECNIA</p>
-                </a></div>
+                </Link></div>
 
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/agronegocio" >
                     <img src={Curso8} alt="AGRONEGÓCIO" />
                     <p>AGRONEGÓCIO</p>
-                </a></div>
+                </Link></div>
 
             </div>
         </div>

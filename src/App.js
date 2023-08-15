@@ -4,7 +4,14 @@ import { Menu } from "./Componentes/Menu/Index";
 import { Rodape } from "./Componentes/Rodape/Index";
 
 import Home from "./Pages/Home/Index";
-import Efermagem from "./Pages/PageCursoEnfermagem/Index";
+import Enfermagem from "./Pages/PageCursoEnfermagem/Index";
+import DesenvolvimentoSist from "./Pages/PageDesenvolvimentoSistema/Index";
+import AcucarAlcool from "./Pages/PageAcucarAlcool/Index";
+import RescursosHumanos from "./Pages/PageRecursosHumanos/Index"
+import Administracao from "./Pages/PageAdministracao/Index";
+import Agropecuaria from "./Pages/PageAgropecuaria/Index";
+import Zootecnia from "./Pages/PageZootecnia/Index";
+import Agronegocio from "./Pages/PageAgronegocio/Index";
 
 
 
@@ -18,7 +25,35 @@ function App() {
         <Switch>
 
           <Route path="/enfermagem">
-            <Efermagem />
+            <Enfermagem />
+          </Route>
+
+          <Route path="/desenvolvimentodesistema">
+            <DesenvolvimentoSist />
+          </Route>
+
+          <Route path="/acucarealcool">
+            <AcucarAlcool />
+          </Route>
+
+          <Route path="/rescursoshumanos">
+            <RescursosHumanos />
+          </Route>
+
+          <Route path="/administracao">
+            <Administracao />
+          </Route>
+
+          <Route path="/agropecuaria">
+            <Agropecuaria />
+          </Route>
+
+          <Route path="/zootecnia">
+            <Zootecnia />
+          </Route>
+
+          <Route path="/agronegocio">
+            <Agronegocio />
           </Route>
 
           <Route path="/">
