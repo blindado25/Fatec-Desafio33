@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../CursosTecnicos/Style.css';
 import '../reset.css';
 import Curso1 from '../CursosTecnicos/img/vacina.png';
@@ -17,10 +18,10 @@ export function CursosTecnicos() {
             <h1>Cursos técnicos</h1>
 
             <div className='grid-cursos'>
-                <div className='curso'><a href="/" target='_blank' >
+                <div className='curso'><Link to="/enfermagem"  >
                     <img src={Curso1} alt="ENFERMAGEM" />
                     <p>ENFERMAGEM</p>
-                </a></div>
+                </Link></div>
 
                 <div className='curso'><a href="/" target='_blank' >
                     <img src={Curso2} alt="DESENVOLVIMENTO DE SISTEMAS" />
