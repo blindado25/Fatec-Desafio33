@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #B91C1C;
 }
 
 .rodape-contem {
@@ -88,7 +89,6 @@
 }
 
 .rodape-direitos-reservados {
-    max-width: 1920px;
     width: 100%;
     background-color: #AA1818;
     color: #fff;
